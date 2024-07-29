@@ -22,7 +22,7 @@ export const RegisterPage = () => {
 
   return (
     <div>
-      <h1>form Page</h1>
+      <h1>Register Page</h1>
 
       <form noValidate onSubmit={ onSubmit }>
         <input type="text" placeholder="Name" name="name" value={ name } onChange={ onChange } className={ `${ name.trim().length <= 0 && "has-error"}` } />
